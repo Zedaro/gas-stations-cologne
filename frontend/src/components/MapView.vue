@@ -61,7 +61,7 @@
         mapStore.searchText = ""
       })
 
-      // When clicking on list address, put address in search bar
+      // When clicking on list address, puts address in search bar
       // TODO: When this happens, the map should automatically move to the searched address.
       if (mapStore.searchText) {
         searchControl.searchText(mapStore.searchText)
